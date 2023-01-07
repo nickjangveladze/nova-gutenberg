@@ -2,6 +2,11 @@
 
 A nova field for Laraberg
 
+## Requirements
+
+- `php: >=8.0`
+- `laravel/nova: ^4.0`
+
 ## Installation
 
 Install via composer
