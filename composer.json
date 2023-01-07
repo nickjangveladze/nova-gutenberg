@@ -1,0 +1,41 @@
+{
+    "name": "jangvel/nova-gutenberg",
+    "description": "Implementation of the Gutenberg editor as a Laravel Nova Field based on Laraberg.",
+    "keywords": [
+        "gutenberg",
+        "laraberg",
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^8.0|^9.0",
+        "laravel/nova": "^4.0",
+        "van-ons/laraberg": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jangvel\\NovaGutenberg\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VanOns\\Laraberg\\LarabergServiceProvider",
+                "Jangvel\\NovaGutenberg\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ]
+}
