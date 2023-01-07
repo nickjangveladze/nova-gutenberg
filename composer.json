@@ -22,7 +22,6 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VanOns\\Laraberg\\LarabergServiceProvider",
                 "Jangvel\\NovaGutenberg\\FieldServiceProvider"
             ]
         }
