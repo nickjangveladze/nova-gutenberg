@@ -4,8 +4,9 @@ A nova field for Laraberg
 
 ## Requirements
 
-- `php: >=8.0`
+- `php: ^8.2`
 - `laravel/nova: ^4.0`
+- `laravel/framework: ^8.0|^9.0|^10.0|^11.0|^12.0`
 
 ## Installation
 
